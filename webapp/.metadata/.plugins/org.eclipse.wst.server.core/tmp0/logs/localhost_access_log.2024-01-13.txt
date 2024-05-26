@@ -1,0 +1,10 @@
+127.0.0.1 - - [13/Jan/2024:14:41:36 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [13/Jan/2024:14:42:07 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [13/Jan/2024:15:04:17 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [13/Jan/2024:15:04:18 +0530] "GET /WebApp1/ HTTP/1.1" 200 193
+0:0:0:0:0:0:0:1 - - [13/Jan/2024:15:04:21 +0530] "GET /WebApp1/addProduct.jsp HTTP/1.1" 200 486
+0:0:0:0:0:0:0:1 - - [13/Jan/2024:15:04:44 +0530] "GET /WebApp1/AddProdServlet?prodname=parleG&category=Biscuit&quantity=45&price=56 HTTP/1.1" 200 89
+127.0.0.1 - - [13/Jan/2024:15:12:30 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [13/Jan/2024:15:12:30 +0530] "GET /WebApp1/ HTTP/1.1" 200 193
+0:0:0:0:0:0:0:1 - - [13/Jan/2024:15:12:33 +0530] "GET /WebApp1/addProduct.jsp HTTP/1.1" 200 486
+0:0:0:0:0:0:0:1 - - [13/Jan/2024:15:12:53 +0530] "GET /WebApp1/AddProdServlet?prodname=ParleG&category=Biscuit&quantity=56&price=123 HTTP/1.1" 200 101
